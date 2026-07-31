@@ -1,0 +1,19 @@
+# Python / Django ignore rules
+__pycache__/
+*.py[cod]
+*$py.class
+*.sqlite3
+*.log
+
+# Virtual Environment (Bohat heavy folder, ignore MUST)
+venv/
+ENV/
+env/
+
+# Environment variables & secrets
+.env
+.venv
+
+# IDE / VS Code
+.vscode/
+.idea/
